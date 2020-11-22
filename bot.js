@@ -106,6 +106,6 @@ function messageHandler(msg)
     //countType(msg);
     brian_interpreter(msg);
     steph_interpreter(msg);
-    fuck_with_minh(msg);
+    //fuck_with_minh(msg);
 }
 
