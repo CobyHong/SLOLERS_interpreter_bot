@@ -1,11 +1,12 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-client.login('Nzc5ODQ1MzY1NzI5NzIyMzc5.X7mdmA.O87jXv-0509w_b-ZknpHJxvzdi0');
+
+var token = process.env.BOT_TOKEN;
+client.login(token);
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
-
 
 client.on('message', gotMessage);
 
